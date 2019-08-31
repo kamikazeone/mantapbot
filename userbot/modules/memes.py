@@ -967,14 +967,14 @@ async def iqless(e):
         await e.edit("♿")
 
 
-@register(outgoing=True, pattern="^.moon$")
+@register(outgoing=True, pattern="^.monyet$")
 @errors_handler
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in (
             "/", "#", "@", "!"):
         if event.fwd_from:
             return
-        deq = deque(list("🌗🌘🌑🌒🌓🌔🌕🌖"))
+        deq = deque(list("🙈🙉🙊🙈🙉🙊🙈🙊"))
         try:
             for _ in range(32):
                 await asyncio.sleep(0.1)
@@ -984,14 +984,14 @@ async def _(event):
             return
 
 
-@register(outgoing=True, pattern="^.clock$")
+@register(outgoing=True, pattern="^.coli$")
 @errors_handler
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in (
             "/", "#", "@", "!"):
         if event.fwd_from:
             return
-        deq = deque(list("🕙🕘🕗🕖🕕🕔🕓🕒🕑🕐🕛"))
+        deq = deque(list("😀😃😄😁😆😅😂🤣😭😗😙"))
         try:
             for _ in range(32):
                 await asyncio.sleep(0.1)
