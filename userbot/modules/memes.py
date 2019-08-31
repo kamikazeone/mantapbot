@@ -974,7 +974,7 @@ async def _(event):
             "/", "#", "@", "!"):
         if event.fwd_from:
             return
-        deq = deque(list("🙈🙉🙊🙈🙉🙊🙈🙊"))
+        deq = deque(list("🙈🙉🙊🙈🙉🙊🙈🙊😙"))
         try:
             for _ in range(32):
                 await asyncio.sleep(0.1)
@@ -1186,8 +1186,8 @@ CMD_HELP.update({
 \nUsage: Ooooof\
 \n\n.fp\
 \nUsage: Facepalm :P\
-\n\n.moon\
-\nUsage: kensar moon animation.\
+\n\n.monyet\
+\nUsage: kensar monyet animation.\
 \n\n.clock\
 \nUsage: kensar clock animation.\
 \n\n.hi\
